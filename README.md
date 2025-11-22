@@ -3,10 +3,10 @@
 
 Turn any messy idea or rough task into clear, step‑by‑step instructions with an AI-powered assistant.
 
-This project is a React + Vite + TypeScript web app that uses an LLM (via OceanAI / OpenAI-style API) to generate simple, actionable instructions from natural language prompts.
+This project is a React + Vite + TypeScript web app that uses an LLM (via OpenAI-style API) to generate simple, actionable instructions from natural language prompts.
 
 > Example:  
-> “Help me create a 7‑day DSA practice plan for interviews” → the bot returns clean, structured, easy-to-follow steps.
+> “Help me give a summary of my important mails for discussion” → the bot returns clean, structured, easy-to-follow steps.
 
 ---
 
@@ -163,7 +163,7 @@ Feel free to:
 - Add features like **history**, **export to PDF/Markdown**, or **templates** for common tasks.
 - Wire Supabase (or any backend) to persist user instructions, auth, etc.
 
-If this is only for personal use or a portfolio project, you can keep it simple and just tweak the UI text and prompts to match your use‑case (e.g., “DSA Planner”, “Study Instructions Bot”, “Task Breakdown Assistant”).
+If this is only for personal use or a portfolio project, you can keep it simple and just tweak the UI text and prompts to match your use‑case (e.g. “Instructions Bot”, “Task Breakdown Assistant”).
 
 ---
 
