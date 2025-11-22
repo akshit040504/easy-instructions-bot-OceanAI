@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+🚀 Easy Instructions Bot – OceanAI
+AI that converts any task into clear, step-by-step instructions.
+<p align="center"> <img src="https://img.shields.io/github/stars/akshit040504/easy-instructions-bot-OceanAI?style=for-the-badge" /> <img src="https://img.shields.io/github/forks/akshit040504/easy-instructions-bot-OceanAI?style=for-the-badge" /> <img src="https://img.shields.io/badge/Deployed%20On-Vercel-black?style=for-the-badge&logo=vercel" /> <img src="https://img.shields.io/github/license/akshit040504/easy-instructions-bot-OceanAI?style=for-the-badge" /> </p>
+🌐 Live Demo
 
-## Project info
+🔗 Live Deployment: https://easy-instructions-bot-ocean-ai.vercel.app
 
-**URL**: https://lovable.dev/projects/129face6-2380-4d93-8bc3-32ea362a7892
+📸 Screenshots
+Home Screen	Output Page
 
-## How can I edit this code?
+	
 
-There are several ways of editing your application.
+(Replace placeholder images with actual UI screenshots later)
 
-**Use Lovable**
+✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/129face6-2380-4d93-8bc3-32ea362a7892) and start prompting.
+🧠 Converts complex tasks into easy step-by-step instructions
 
-Changes made via Lovable will be committed automatically to this repo.
+🪜 Structured logical flow for beginners & professionals
 
-**Use your preferred IDE**
+📝 Editable output area
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📋 One-tap copy instructions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📱 Mobile-responsive UI
 
-Follow these steps:
+⚡ Fast hosting via Vercel
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🎨 Modern UI with Tailwind & shadcn components
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🧰 Tech Stack
+Category	Technology
+Frontend	React, TypeScript, Vite, Tailwind CSS
+Backend	Supabase
+Hosting	Vercel
+Tools	ESLint, PostCSS
+📦 Project Structure
+easy-instructions-bot-oceanAI
+├── public/
+├── src/
+├── supabase/
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+└── .env
 
-# Step 3: Install the necessary dependencies.
-npm i
+🧑‍💻 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/akshit040504/easy-instructions-bot-OceanAI.git
+cd easy-instructions-bot-OceanAI
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Setup Environment Variables
+
+Create a .env file and add:
+
+VITE_SUPABASE_URL=your_url_here
+VITE_SUPABASE_ANON_KEY=your_key_here
+
+4️⃣ Run Development Server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+App opens on: http://localhost:5173/
 
-**Use GitHub Codespaces**
+☁️ Deploying to Vercel
+Setting	Value
+Build Command	npm run build
+Output Directory	dist
+Framework	Vite / React
+Environment Variables	Same as .env
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Deployment auto builds & auto updates on push.
 
-## What technologies are used for this project?
+🛣️ Roadmap
 
-This project is built with:
+🔐 Login / authentication
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+💾 Instruction history
 
-## How can I deploy this project?
+🧠 Beginner / advanced / technical modes
 
-Simply open [Lovable](https://lovable.dev/projects/129face6-2380-4d93-8bc3-32ea362a7892) and click on Share -> Publish.
+📝 Export PDF / Markdown
 
-## Can I connect a custom domain to my Lovable project?
+🌍 Multi-language support
 
-Yes, you can!
+🤝 Contributing
+git checkout -b feature/your-feature
+git commit -m "Implemented new feature"
+git push origin feature/your-feature
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is licensed under the MIT License.
+
+🙏 Acknowledgements
+
+React + TypeScript + Tailwind CSS
+
+Supabase backend
+
+Hosted on Vercel 🚀
+
+<div align="center">
+⭐ If you found this project helpful, please consider giving it a star!
+</div>
